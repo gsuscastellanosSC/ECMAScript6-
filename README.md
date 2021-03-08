@@ -15,6 +15,10 @@
             Is this OK? (yes) yes
         Extenciones para vs:
             Code Runner: Permite ejecutar bloques de codigo, dentro del editor.
+# Class#3
+    LET y CONST, Multilínea, Spread Operator y Desestructuración
+        let: esta disponible en el scope donde va ser llamda.
+        var: variable de acceso global.
 # Links
     ECMAScript
         https://www.ecma-international.org/publications/standards/Ecma-262.htm
