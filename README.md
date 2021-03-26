@@ -30,6 +30,8 @@
     ¿Qué se implementó en ES8?
 # Class#8    
     Async Await
+# Class#9    
+    ¿Qué se implementó en ES9?
 # Links
     ECMAScript
         https://www.ecma-international.org/publications/standards/Ecma-262.htm
