@@ -26,6 +26,8 @@
     Clases, Módulos y Generadores
 # Class#6    
     ¿Qué se implementó en ES7?
+# Class#7
+    ¿Qué se implementó en ES8?
 # Links
     ECMAScript
         https://www.ecma-international.org/publications/standards/Ecma-262.htm
