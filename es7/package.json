@@ -1,0 +1,19 @@
+{
+  "name": "es7",
+  "version": "1.0.0",
+  "description": "Description",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gsuscastellanosSC/ECMAScript6-.git"
+  },
+  "author": "sc",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gsuscastellanosSC/ECMAScript6-/issues"
+  },
+  "homepage": "https://github.com/gsuscastellanosSC/ECMAScript6-#readme"
+}

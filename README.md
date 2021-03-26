@@ -23,7 +23,9 @@
 # Class#4
     Arrow Functions, Promesas y Parámetros en objetos  
 # Class#5
-    Clases, Módulos y Generadores   
+    Clases, Módulos y Generadores
+# Class#6    
+    ¿Qué se implementó en ES7?
 # Links
     ECMAScript
         https://www.ecma-international.org/publications/standards/Ecma-262.htm
