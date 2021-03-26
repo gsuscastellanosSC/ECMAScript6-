@@ -59,5 +59,53 @@ let education = ['David', ...team1, ...team2];
 console.log(education);
 
 const a = 'b';
-a = 'a'; //No permitido
+a = 'a'; //No permitido cuando se tiene definido como const
 console.log(a);
+
+//Arrow Functions, Promesas y Parámetros en objetos
+//Arrow Functions
+const names = [
+    { name: 'Sc', age: 32 },
+    { name: 'Jesús', age: 32 }
+]
+let listOfNames = names.map(function(item) {
+    console.log(item.name);
+});
+
+let listOfNames2 = names.map(item => console.log(item.name));
+
+const listOfNames3 = (name, age, country) => {
+    //...
+};
+
+const listOfNames4 = name => {
+    //...
+}
+
+const square = num => num * num;
+
+// Promesas
+const helloPromise = () => {
+    return new Promise((resolve, reject) => {
+        if ('b' === 'b') {
+            resolve('Hey');
+        } else {
+            reject('Ups!!');
+        }
+    });
+}
+
+helloPromise()
+    .then(response => console.log(response))
+    .then(() => console.log('hola'))
+    .catch(error => console.log(error))
+
+//Parámetros en objetos
+let name = 'sc';
+let age = 32;
+//es5
+obj = { name: name, age: age };
+console.log(obj);
+//es6
+obj2 = { name, age };
+console.log(obj2);

@@ -19,6 +19,9 @@
     LET y CONST, Multilínea, Spread Operator y Desestructuración
         let: esta disponible en el scope donde va ser llamda.
         var: variable de acceso global.
+        const: No se puede realizar cambios cuando se declara como const.
+# Class#4
+    Arrow Functions, Promesas y Parámetros en objetos     
 # Links
     ECMAScript
         https://www.ecma-international.org/publications/standards/Ecma-262.htm
