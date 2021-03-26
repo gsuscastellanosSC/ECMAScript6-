@@ -21,7 +21,9 @@
         var: variable de acceso global.
         const: No se puede realizar cambios cuando se declara como const.
 # Class#4
-    Arrow Functions, Promesas y Parámetros en objetos     
+    Arrow Functions, Promesas y Parámetros en objetos  
+# Class#5
+    Clases, Módulos y Generadores   
 # Links
     ECMAScript
         https://www.ecma-international.org/publications/standards/Ecma-262.htm

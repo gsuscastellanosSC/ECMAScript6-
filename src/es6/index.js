@@ -109,3 +109,48 @@ console.log(obj);
 //es6
 obj2 = { name, age };
 console.log(obj2);
+
+//Clases, Módulos y Generadores
+
+//Clases
+class calculator {
+    constructor() {
+        this.valueA = 0;
+        this.valueB = 0;
+    }
+
+    sumar(valueA, valueB) {
+        this.valueA = valueA;
+        this.valueB = valueB;
+        return this.valueA + this.valueB;
+    }
+
+    multiplicar(valueA, valueB) {
+        this.valueA = valueA;
+        this.valueB = valueB;
+        return this.valueA * this.valueB;
+    }
+}
+
+const calc = new calculator();
+console.log(calc.sumar(1, 2));
+console.log(calc.multiplicar(1, 2));
+
+//Módulos
+import { hello } from './module';
+hello();
+
+//Generadores
+function* helloWorld() {
+    if (true) {
+        yield 'Hello, ';
+    }
+    if (true == !false) {
+        yield 'World';
+    }
+}
+
+const generatorHello = helloWorld();
+console.log(generatorHello.next().value);
+console.log(generatorHello.next().value);
+console.log(generatorHello.next().value);
