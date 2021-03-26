@@ -34,6 +34,10 @@
     ¿Qué se implementó en ES9?
 # Class#10
     ¿Qué se implementó en ES10?
+# Class#11    
+    TC39 y Cierre del curso
 # Links
+    Tc39:
+        https://tc39.es/
     ECMAScript
         https://www.ecma-international.org/publications/standards/Ecma-262.htm
